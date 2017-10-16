@@ -1,9 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-
 public class EmployeeInfoApplication {
-
 	public static void main(String[] args) throws IOException {
 		try {
 			EmployeeInfoManager.readAllEmployeeFromFile();
@@ -12,8 +10,6 @@ public class EmployeeInfoApplication {
 			System.out.println(e.getMessage());
 			e.printStackTrace();
 		}
-	    
-	
 	int a=0;
 	int b=0;
 	int c=0;
@@ -44,9 +40,8 @@ public class EmployeeInfoApplication {
 		     case 5:
 		    	 break;	
 		     default:
-					
-					System.out.println("您的输入有误，请输入1--5选择相应查询项目");
-					System.out.println("请重新输入：");
+					System.out.println("鎮ㄧ殑杈撳叆鏈夎锛岃杈撳叆1--5閫夋嫨鐩稿簲鏌ヨ椤圭洰");
+					System.out.println("璇烽噸鏂拌緭鍏ワ細");
 		               }break;
 			 }
 			 case 2:{
@@ -59,8 +54,8 @@ public class EmployeeInfoApplication {
 				 case 2:
 					 break;
 				 default:
-						System.out.println("您的输入有误，请输入1--2选择相应项目");
-						System.out.println("请重新输入：");
+						System.out.println("鎮ㄧ殑杈撳叆鏈夎锛岃杈撳叆1--2閫夋嫨鐩稿簲椤圭洰");
+						System.out.println("璇烽噸鏂拌緭鍏ワ細");
 				          }break;
 				      }
 			 case 3:{
@@ -74,22 +69,19 @@ public class EmployeeInfoApplication {
 					 break;
 				                
 			    default:
-					System.out.println("您的输入有误，请输入1--2选择相应项目");
-					System.out.println("请重新输入：");  
+					System.out.println("鎮ㄧ殑杈撳叆鏈夎锛岃杈撳叆1--2閫夋嫨鐩稿簲椤圭洰");
+					System.out.println("璇烽噸鏂拌緭鍏ワ細");  
 			         }break;
 			         }
 			 case 4:{
-				 System.out.println("您已退出，感谢您的使用");
+				 System.out.println("鎮ㄥ凡閫�鍑猴紝鎰熻阿鎮ㄧ殑浣跨敤");
 				 break;
 			        }
 			 default:
-					System.out.println("您的输入有误，请输入1--4选择相应项目");
-					System.out.println("请重新输入：");
+					System.out.println("鎮ㄧ殑杈撳叆鏈夎锛岃杈撳叆1--4閫夋嫨鐩稿簲椤圭洰");
+					System.out.println("璇烽噸鏂拌緭鍏ワ細");
 			 }
-		   
 	}
-		}}}
-
-
-
-
+		}
+	}
+}
